@@ -19,8 +19,8 @@ class UpdateTodoItem(BaseModel):
 
 # Dummy data for demonstration
 todos = {
-    UUID("8ffadce6-60d4-431f-afdb-3c53aac9d3c1"): TodoItem(id=UUID("8ffadce6-60d4-431f-afdb-3c53aac9d3c1"), text="Go jogging", completed=False, status="pending", user="example@example.com"),
-    UUID("33d1f1c4-1ce4-46f5-9b88-dc42b86a0083"): TodoItem(id=UUID("33d1f1c4-1ce4-46f5-9b88-dc42b86a0083"), text="Do homework", completed=True, status="completed", user="example@example.com")
+    UUID("8ffadce6-60d4-431f-afdb-3c53aac9d3c1"): TodoItem(id=UUID("8ffadce6-60d4-431f-afdb-3c53aac9d3c1"), text="Sleeping", completed=False, status="pending", user="example@example.com"),
+    UUID("33d1f1c4-1ce4-46f5-9b88-dc42b86a0083"): TodoItem(id=UUID("33d1f1c4-1ce4-46f5-9b88-dc42b86a0083"), text="Singing", completed=True, status="completed", user="example@example.com")
 }
 
 @app.get("/todo/get")
